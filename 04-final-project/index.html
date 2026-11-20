@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+<script type="module">
+  // import the functions from the Software Development Kit
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+  import { 
+    getDatabase, //this function aloows us to start using FireBase
+    ref, //this one directs the data to where it shhould be saved 
+    set, 
+    push, //emsures we dont accidentally delete something
+    onValue //rings everytime a new drawing is added
+  } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+
+  //firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAOZlX7M6C3pDbxtP-eiMytAlkAASWlhDg",
+    authDomain: "animal-farm-6376c.firebaseapp.com",
+    databaseURL: "https://animal-farm-6376c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "animal-farm-6376c",
+    storageBucket: "animal-farm-6376c.firebasestorage.app",
+    messagingSenderId: "255802757300",
+    appId: "1:255802757300:web:b480a465272609d7d947e1",
+    measurementId: "G-JYGKZ75WKE"
+  };
+
+  // initialize firebase & database
+  const app = initializeApp(firebaseConfig);
+  const db = getDatabase(app);
+
+  // expose database reference & functions to window scope for p5.js sketch access
+  window.db = db; //makes the sketch globally available - anyone can access 
+  window.dbRef = ref; //gives this sketch acccess to the the functions so that it can use the database folders 
+  window.dbSet = set;
+  window.dbPush = push; //adds new drawings 
+  window.dbOnValue = onValue; //allows for real time updates 
+</script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5.sound@0.4.1/dist/p5.sound.min.js"></script>
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>

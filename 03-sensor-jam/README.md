@@ -1,54 +1,12 @@
-# Sensor Jam — Title
+# coding-jam — Sensor-to-Screen
 
-<!-- Replace "Title" with the name of your project, e.g. "Sensor Jam — Theremin Visualiser" -->
+Arduino Coding Jam (Week 9), done in a pair by **Tan Zhiheng Isaac** and **Belinda Chai Yu Xuan**.
 
----
+An ultrasonic distance sensor on the Arduino controls the visuals in p5.js. When your hand moves **closer** to the sensor, the shape in the middle gets **bigger**; move it **further** away and the shape gets **smaller**. The background and shape flash random neon colours and switch between a square, circle and triangle.
 
-### The Project
+- Arduino code: [`activity-9b_sensor-jam/activity-9b_sensor-jam.ino`](activity-9b_sensor-jam/activity-9b_sensor-jam.ino)
+- p5.js sketch: [`sketch.js`](sketch.js) (uses p5.webserial — open `index.html` in Chrome and click **Connect to Arduino**)
 
-<!-- What does your sketch do, and what physical input drives it?
-     How does the sensor data translate into something on screen?
-     A few sentences is all you need. -->
+**Video documentation:** [`documentation/sensorjam-tanzhihengisaac-video01.mp4`](documentation/sensorjam-tanzhihengisaac-video01.mp4) · [also on Google Drive](https://drive.google.com/file/d/1MuwZoccvI_KSsbviOJL0-HTOQnTs1uZk/view?usp=sharing)
 
----
-
-### Output
-
-![screenshot](readme-assets/screenshot-01.png)
-
-<!-- Drop a screenshot or GIF of your sketch in action.
-     Got a photo of your physical setup too? Throw it in.
-     Save everything to a readme-assets/ folder inside this project folder. -->
-
-[Watch Online](https://your-link-here)
-
-<!-- Replace the link above with a URL to a video of your project in action.
-     ⚠️ Make sure the file or page is set to public before submitting. -->
-
----
-
-<!-- ─────────────────────────────────────────────────────
-     GOING FURTHER — want to document more? Try any of these:
-
-     ### ✍️ Reflection
-     A short write-up of your process — what worked, what didn't,
-     and what you'd take further if you had more time.
-
-     ### 🛠️ Hardware
-     List the physical components you used.
-     - Arduino Uno
-     - Ultrasonic sensor (HC-SR04)
-
-     ### 🔍 Sensor Mapping
-     How does your sensor data map to visual or sonic output?
-     e.g. "Distance (0–400cm) → circle size (10–400px) using map()"
-
-     ### 🧩 Something I Found Interesting
-     A snippet, a technique, a happy accident.
-     ```js
-     // your code here
-     ```
-
-     ### 🔗 References
-     Anything that helped — tutorials, datasheets, examples.
-     ───────────────────────────────────────────────────── -->
+*Note: the original code is on my computer, so the code here was rebuilt from our Activity 9a code and our video.*

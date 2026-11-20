@@ -1,62 +1,17 @@
-# Mini Project — Title
+# mini-project — Jumpy Bird (Flappy Bird clone)
 
-<!-- Replace "Title" with the name of your project, e.g. "Mini Project — Pong Remix" -->
+Mini Project by **Tan Zhiheng Isaac** and **Belinda Chai Yu Xuan**.
 
----
+**Controls:** Space to start / restart · Space or ↑ to jump
 
-### The Project
+**Video documentation:** [Watch on Google Drive](https://drive.google.com/file/d/1E88lqi5MH6LdX8JSIhDXn1LBv_5-QMS0/view?usp=sharing)
 
-<!-- What did you build and what makes it yours? A few sentences is enough.
-     What did you change, add, or push beyond the scaffold? -->
+Process screenshots are in the [`documentation`](documentation/) folder. The game code is in [`isaac&belinda-flappybird-project`](isaac&belinda-flappybird-project/) — open its `index.html` to play.
 
----
+## Reflection
 
-### Output
+Growing up, I loved playing stylised games, so when Belinda and I started on our Flappy Bird remake, I wanted it to have a strong visual style of its own. We worked from Kapi's guide and built the game around a street setting with a bold, limited colour palette.
 
-![screenshot](readme-assets/screenshot-01.png)
+Coding was already challenging for me, so I preferred keeping the idea close to the original game. That gave us something familiar to check against while we figured out how everything worked. Belinda brought a more lighthearted side to the project, and together we experimented with the assets until the bird had a silly little animation that made the game more fun to play.
 
-<!-- Drop a screenshot or GIF of your finished project.
-     Save it to a readme-assets/ folder inside this project folder.
-     Got more than one good screenshot? Add them. -->
-
-[Watch Online](https://your-link-here)
-
-<!-- Replace the link above with a URL to a screen recording or video of your project.
-     ⚠️ Make sure the file or page is set to public before submitting. -->
-
----
-
-### ✍️ Reflection
-
-<!-- 200–300 words on your process. Write freely — this isn't an essay.
-     Some prompts to get you started:
-     — What did you set out to make, and how did the result compare?
-     — What inputs does your sketch respond to, and how did you approach that?
-     — What was your biggest challenge, and how did you work through it?
-     — What would you push further if you had more time? -->
-
----
-
-<!-- ─────────────────────────────────────────────────────
-     GOING FURTHER — want to document more? Try any of these:
-
-     ### ✨ What I Changed
-     A short list of the additions and modifications you made to the scaffold.
-     - Changed the paddle to use mouse tracking instead of keyboard
-     - Redesigned the visual language with a retro CRT aesthetic
-
-     ### 🔍 Code Structure
-     Briefly explain how your files are organised.
-     - `sketch.js` — main game loop
-     - `Ball.js` — ball class with collision logic
-     - `assets/` — sprites and sounds
-
-     ### 🧩 Something I'm Proud Of
-     A snippet of code, a design decision, a moment where it clicked.
-     ```js
-     // your code here
-     ```
-
-     ### 🔗 References
-     Anything that helped or inspired you — tutorials, artworks, tools.
-     ───────────────────────────────────────────────────── -->
+Building it taught me a lot about how a game is put together: switching between screens, keeping track of the score, and making each object handle its own movement. Debugging took up a big part of our time, and tuning the difficulty took a lot of trial and error before it felt fair. Next time, I would like to push the gameplay further with features like a high score or increasing speed.

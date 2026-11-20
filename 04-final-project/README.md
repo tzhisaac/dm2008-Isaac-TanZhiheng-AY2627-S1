@@ -1,69 +1,19 @@
-# Final Project — Title
+# final-project — Chatter Pasture
 
-<!-- Replace "Title" with the name of your project -->
+Final Project by **Tan Zhiheng Isaac** and **Belinda Chai Yu Xuan**.
 
----
+**How to use:** open `index.html` in a browser. Draw your creature on the canvas, style it with the sliders, drag on some googly eyes, then press **Save to Farm**. Press **Switch to Farm View** to see everyone's animals wandering around the pasture.
 
-### The Project
+**Pitch deck:** [`documentation/chatter-pasture-pitch.pdf`](documentation/chatter-pasture-pitch.pdf)
 
-<!-- What is your project and what does it do?
-     What experience does it create, and who or what does it respond to?
-     A short paragraph is ideal — make it something you'd be happy for anyone to read. -->
+## Write-up
 
----
+Before this project, Belinda and I had lots of ideas, and narrowing down what we actually loved was a challenge. Belinda wanted to play with visuals, while I wanted something that would bring out the artist in us, since we both come from design. I love tools and new ways of creating, so I pitched the idea of designing our own living animals, a bit like Build-A-Bear. It got us both excited because it could become a creative outlet for making new things, so we decided to pursue it.
 
-### Output
+We named it Chatter Pasture because of the good-natured feel of its living drawings. The shared space allows interactive creativity: seeing other people's animals inspires others to join in and add their own creativity and voice through the animal they make. Belinda helped set up the server, which let us collect everyone's animals in one place.
 
-![screenshot](readme-assets/screenshot-01.png)
+The abstract brush keeps things lighthearted and simple. A single slider can create many interesting characteristics for an animal without complicating the tools or holding ourselves to perfection.
 
-<!-- Drop a screenshot or GIF of your project.
-     Got more to show? Add more images — let the work speak for itself.
-     Save everything to a readme-assets/ folder inside this project folder. -->
+Using imagery and sketches helped us both picture the final result, align on the direction, and structure the programming so we could see what was needed. We shared a lot of references with each other, which encouraged us to keep building and helped us support one another.
 
-[Watch Online](https://your-link-here)
-
-<!-- Replace the link above with a URL to a screen recording or video of your final project.
-     ⚠️ Make sure the file or page is set to public before submitting. -->
-
----
-
-### ✍️ Reflection
-
-<!-- 200–300 words on your process and outcome. Write freely — this is your story to tell.
-     Some prompts to get you started:
-     — What did you set out to create, and how did the final result compare to your original vision?
-     — How is your project structured — what inputs does it respond to and how did you approach the code?
-     — What were your key visual and/or sonic design decisions, and why?
-     — What was your biggest challenge, and how did you work through it?
-     — What would you change, add, or explore further given more time? -->
-
----
-
-<!-- ─────────────────────────────────────────────────────
-     GOING FURTHER — want to document more? Try any of these:
-
-     ### ✨ Features
-     A short list of what your project does.
-     - Responds to mouse position and velocity
-     - Generates sound based on particle density
-
-     ### 🔍 Code Structure
-     How are your files organised?
-     - `sketch.js` — main setup and draw loop
-     - `Agent.js` — autonomous agent class
-     - `assets/` — images and sounds
-
-     ### 🛠️ Hardware (if applicable)
-     List any physical components used.
-     - Arduino Uno
-     - Sensor type and model
-
-     ### 🧩 Something I'm Proud Of
-     A snippet, a decision, a moment where it all came together.
-     ```js
-     // your code here
-     ```
-
-     ### 🔗 References
-     Tutorials, libraries, artworks, or research that informed your project.
-     ───────────────────────────────────────────────────── -->
+The challenge felt daunting at first, but with references, help from friends, tutorials and guidance from Kapi, it turned out to be fun, and the result was more than I expected.
